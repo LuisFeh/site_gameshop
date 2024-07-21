@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16 px 0;
+    background-color: rgb(20, 26, 85);
+    color: white;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a{
+    display: inline;
+    margin-left: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header .container,
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons img{
+    height: 24px;
+    margin-right: 8px;
+}
+
+.icons li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2, section h3, form button{
+    margin-bottom: 16px;
+    color: rgb(20, 26, 85);
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.photo{
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+#contat .container{
+    display: block;
+}
+
+.contat-metods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, textarea, button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px ;
+}
+
+form button{
+    background-color: rgb(20, 26, 85) ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(67, 77, 173);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(20, 26, 85);
+}
+
+footer{
+    background-color:rgb(20, 26, 85) ;
+    color: #fff;
+    padding: 16px 0;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
